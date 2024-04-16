@@ -9,6 +9,8 @@ print("2. lower functions")
 print(myname.lower())    # make a copy of the actual string and change the case of the letters into lowercase
 print(myname.casefold())
 
+print("4. Make the first character capital = " + myname.capitalize()) # this will make the first charater upper case.
+
 print(myname.swapcase())    # this w3ill swap all the cases to other means, lower to upper an dupper to lower
 print(myname.title())    # this will convert the string into a title like form
 
