@@ -14,8 +14,8 @@ isupper()	Returns True if all characters in the string are upper case
 ### some common example
 
 stringing = 'The king of the ALberta is JACK 2 ? is not it'
-print(stringing.isalnum()) # o/p is false as not all the characters in the string is number
-print(stringing.isalpha())  # checks if all the characters are alphabetrs or not
+print(stringing.isalnum())   # o/p is false as not all the characters in the string is number
+print(stringing.isalpha())   # checks if all the characters are alphabetrs or not
 print(stringing.isascii())   # checks if all the strings are ascii values
 print(stringing.islower())   # checks if all the string characters are in lower case or not
 
