@@ -8,6 +8,7 @@ print("1. Upper Function" + myname.upper())    # make a copy of the actual strin
 print("2. lower functions")
 print(myname.lower())    # make a copy of the actual string and change the case of the letters into lowercase
 print(myname.casefold())
+print(myname.swapcase())    # this w3ill swap all the cases to other means, lower to upper an dupper to lower
 
 find_char = myname.find('is')
 print( "3. Find a specific word index = " + str(find_char))   # this will return the index position of the particular  letter in the string if it exists, otherwise returns null
