@@ -10,9 +10,13 @@ Actually, Python was invented in the late 1980s by Guido van Rossum at CWI in th
 
 <h2><u><b>Features of Python</b></u></h2>
 1. Python is simple and easy to understand.
+
 2. It is Interpreted and platform-independent which makes debugging very easy.
+   
 3. Python is an open-source programming language.
+   
 4. Python provides very big library support. Some of the popular libraries include NumPy, Tensorflow, Selenium, OpenCV, etc.
+   
 5. It is possible to integrate other programming languages within python.
 
 <h2><u><b>What is Python used for</b></u></h2>
