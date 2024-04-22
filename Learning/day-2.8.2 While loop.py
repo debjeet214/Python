@@ -1,7 +1,7 @@
 # normal while loop structure.
 i = 1
 while(i<3):     # condition check
-  print(i)      # inner code  
+  print(i, end=' ')      # inner code  here we printed all the o/p on the same line with a space separetor 
   i+=1          # incrementing the element
 
 # checking grades using while loop
