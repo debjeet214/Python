@@ -1,3 +1,11 @@
+# normal while loop structure.
+i = 1
+while(i<3):     # condition check
+  print(i)      # inner code  
+  i+=1          # incrementing the element
+
+# checking grades using while loop
+
 counting = 1
 while( counting<=6 ):
   counting+= 1
