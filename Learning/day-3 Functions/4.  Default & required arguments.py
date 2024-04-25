@@ -17,3 +17,13 @@ def side(x = 24.56, y=20):
 
 default_arg(y = 10)   # but using like this will help to remove the order of argument.
 # or default_arg(4) here 4 will be used as the value of the x now
+
+
+# REQUIRED ARGUMENT
+
+# in scenario like where no value is passed then  we have to add value while function call this type of argument is called required argument
+
+def arg(x, y = 32): # here x is required argument only
+  return x+y
+
+arg(44)
