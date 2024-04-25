@@ -13,7 +13,7 @@ print(blogHeading.capitalize())
 
 str1 = "Welcome to the Console!!!"
 print(len(str1))
-print(len(str1.center(50)))
+print(str1.center(50))                    # this will center the string in the space
 print(a.count("Debjeet"))
 
 print(str1.endswith("!!!"))                 # returns true if the string is ending with the given word or substring
