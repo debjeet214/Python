@@ -1,26 +1,42 @@
-# using the backtracking algorithm
+# using thew backtracking algo.
+
+# board2 = [
+#     [7,8,0,4,0,0,1,2,0],
+#     [6,0,0,0,7,5,0,0,9],
+#     [0,0,0,6,0,1,0,7,8],
+#     [0,0,7,0,4,0,2,6,0],
+#     [0,0,1,0,5,0,9,3,0],
+#     [9,0,4,0,6,0,0,0,5],
+#     [0,7,0,3,0,0,0,1,2],
+#     [1,2,0,0,0,7,4,0,0],
+#     [0,4,9,2,0,6,0,0,7]
+# ]
 
 board = [
-    [7,8,0,4,0,0,1,2,0],
-    [6,0,0,0,7,5,0,0,9],
-    [0,0,0,6,0,1,0,7,8],
-    [0,0,7,0,4,0,2,6,0],
-    [0,0,1,0,5,0,9,3,0],
-    [9,0,4,0,6,0,0,0,5],
-    [0,7,0,3,0,0,0,1,2],
-    [1,2,0,0,0,7,4,0,0],
-    [0,4,9,2,0,6,0,0,7]
+    [7, 0, 2, 0, 8, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 6, 1, 0, 4],
+    [0, 6, 3, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 4, 0, 5, 9, 3, 2],
+    [4, 7, 0, 0, 0, 0, 0, 0, 0],
+    [2, 0, 0, 0, 0, 0, 6, 0, 0],
+    [9, 0, 0, 0, 0, 1, 8, 0, 6],
+    [0, 0, 0, 0, 0, 0, 0, 2, 9],
+    [0, 0, 0, 5, 0, 0, 0, 0, 0]
 ]
+
+
 
 def valid(bo_val, num, pos):
     # check row
     for i in range(len(bo_val[0])):
         if bo_val[pos[0]][i] == num and pos[1] != i:
+            # print("wrong")                            # For understanding where is the incorrect form
             return False
 
     # check column
     for i in range(len(bo_val)):
         if bo_val[i][pos[1]] == num and pos[0] != i:
+            # print("wrong 2")                          # For understanding where is the incorrect form
             return False
         
     # check box
@@ -30,6 +46,7 @@ def valid(bo_val, num, pos):
     for i in range (box_y*3, box_y*3 + 3):
         for j in range(box_x*3, box_x*3 + 3):
             if bo_val[i][j] == num and (i,j) != pos:
+                #  print("wrong 3")      # For understanding where is the incorrect form
                 return False
     return True
 
@@ -73,6 +90,7 @@ def solve(bo_val):
 
             bo_val[row][col] = 0
 
+    # print("wrong 4")     # For understanding where is the incorrect form
     return False
 
 
