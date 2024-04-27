@@ -14,7 +14,7 @@ Syntax:
 - Lists are defined using square brackets [], 
 - Tuples are defined using parentheses (), 
 - Sets are defined using curly braces {}, but they can also be created using the set() constructor.
-
+</br>
 
 ```python
 # List
