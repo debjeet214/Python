@@ -9,7 +9,7 @@ outer_cities = {"Washington", "Paris", "London", "Cairo", "Moscow"}
 
 NonCap_City_Centers = City_Centers.difference(Asian_Captials.union(outer_cities))
 # this will return only those non capital cities where is the center.
-print(NonCap_City_Centers)  
+print(NonCap_City_Centers)  # o/p = {'California', 'Mumbai', 'Shanghai'}
 
 City_Centers.difference_update(Asian_Captials)  # thus existing set is updated.
 print(City_Centers)
