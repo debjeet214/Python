@@ -1,5 +1,6 @@
 #  Pay the hourly rate for the hours up to 40 and 1.5 times the hourly rate for all hours worked above 40 hours.
 
+
 hours = float(input("Enter hours: "))
 rate = float(input("Enter rate per hour: "))
 
