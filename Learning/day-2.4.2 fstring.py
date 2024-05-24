@@ -2,6 +2,8 @@
 
 #When we prefix the string with the letter 'f', the string becomes the f-string itself. The f-string can be formatted in much same as the str.format() method. The f-string offers a convenient way to embed Python expression inside string literals for formatting.
 
+# f-strings is introduced in Python 3.6 it provides a concise and intuitive way to embed expressions and variables directly into strings. The idea behind f-strings is to make string interpolation simpler
+
 name = input("Enter Your name: ")
 age = int(input("Enter your age: "))
 
