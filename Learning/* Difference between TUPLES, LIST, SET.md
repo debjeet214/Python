@@ -2,7 +2,7 @@
 
 ## Mutability:
 - Lists are mutable, meaning you can change their elements after they have been created. You can add, remove, or modify elements in a list.
-- Tuples are immutable, meaning once they are created, their elements cannot be changed. You cannot add, remove, or modify elements in a tuple.
+- Tuples are immutable, meaning once they are created, their elements cannot be changed. You cannot add, remove, or modify elements in a tuple. Like an array we can not chnage the length of a tuple.
 - Sets are mutable, but their elements are unique and immutable. However, you can add or remove items from a set.
   
 ## Ordering:
