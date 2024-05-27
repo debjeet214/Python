@@ -11,5 +11,5 @@ if the try block is false then it will not show error but it will enter the exce
 
 <h2>Types of Exception</h2>
 
-Value Error = except valueError:
-Index Error = except indexError:
+- Value Error = except valueError:
+- Index Error = except indexError:
