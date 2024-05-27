@@ -21,6 +21,9 @@ else:
 # printing values of list in agap sequence
 
 num = [ 3, 76, 98, 00, 1, 21, 34, 65, 89, 47, 73]
+
 print(num)
+print(num[:]) # it will print all the values in the list
+
 print(num[1:8])  # this will print all the values ranging from index 1 to 7
 print(num[1:8:2])  #this will print 1 to 7 indexed values with 2 gapping
