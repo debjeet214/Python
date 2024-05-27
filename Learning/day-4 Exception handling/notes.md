@@ -13,3 +13,8 @@ if the try block is false then it will not show error but it will enter the exce
 
 - Value Error = except valueError:
 - Index Error = except indexError:
+- Memeory Error & more.
+
+# Finally
+It defines a block of code to run when the try... except...else block is done. The finally block will be executed no matter if the try block raises an error or not. This can be useful to close objects and clean up resources.
+
