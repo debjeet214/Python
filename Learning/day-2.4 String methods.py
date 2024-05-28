@@ -9,6 +9,12 @@ print(a.replace("Harry", "Mitali"))
 after_split = a.split(" ")   # this will split the string into lists as soon it encouter a character like space for here.
 after_join = " ".join(p)    # this will join the splitted strings together and insert in the new string
 
+# ** reverse the string (means turning the string opposite, ex - hub = buh)
+reversed_word = []
+word = "i wanna fly"
+reversed_word.append(word[::-1])   # reversing syntax.
+print(reversed_word)
+
 
 blogHeading = "introduTiOn of Myself"
 print(blogHeading.capitalize())
