@@ -6,7 +6,9 @@ print(a.upper())
 print(a.lower())
 print(a.rstrip("!"))     # this will strip ! from the string
 print(a.replace("Harry", "Mitali"))
-print(a.split(" "))   # this will split the string into lists as soon it encouter a character like space for here.
+after_split = a.split(" ")   # this will split the string into lists as soon it encouter a character like space for here.
+after_join = " ".join(p)    # this will join the splitted strings together and insert in the new string
+
 
 blogHeading = "introduTiOn of Myself"
 print(blogHeading.capitalize())
