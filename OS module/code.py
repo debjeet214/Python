@@ -2,6 +2,7 @@
 The *os* and *os.path* modules include many functions to interact with the file system.'''
 
 # for furthur assistance go to this link : https://www.geeksforgeeks.org/os-module-python-examples/
+# also for in depth thinking go to : https://docs.python.org/3/library/os.html
 
 
 import os
@@ -52,7 +53,8 @@ os.remove("Data")  # this will directly delete the file named "Data".
 
 # This function gives the name of the operating system dependent module imported. The following names have currently been registered: ‘posix’, ‘nt’, ‘os2’, ‘ce’, ‘java’ and ‘riscos’.
 
-
 print (os.name)
 # o/p = 1, 2..... try it out import os (posix)
 
+# closing a directory
+os.close(data)    # this will close the directory named data.
