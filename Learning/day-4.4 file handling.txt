@@ -1,0 +1,13 @@
+common modes in the file handling.
+
+Before we can perform any operations on a file, we must first open it. Python provides the open() function to open a file. It takes two arguments: the name of the file and the mode in which the file should be opened. The mode can be 'r' for reading, 'w' for writing, or 'a' for appending.
+
+'r'	open for reading (default)
+'w'	open for writing, truncating the file first
+'x'	create a new file and open it for writing
+'a'	open for writing, appending to the end of the file if it exists
+'b'	binary mode
+'t'	text mode (default)
+'+'	open a disk file for updating (reading and writing)
+
+The default mode is 'rt' (open for reading text).
