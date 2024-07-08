@@ -40,7 +40,10 @@ my_list = [1, 2, 3, 3, 4]
 my_tuple = (1, 2, 3, 3, 4)
 # Set
 my_set = {1, 2, 3, 3, 4}
+# Dictionary
+my_dict = { 1: “a”, 2: “b”, 3: “c”, 4: “d”, 5: “e” } 
 
 print("List:", my_list)  # Output: List: [1, 2, 3, 3, 4]
 print("Tuple:", my_tuple)  # Output: Tuple: (1, 2, 3, 3, 4)
 print("Set:", my_set)  # Output: Set: {1, 2, 3, 4}
+print("dictionary", my_dict) 
