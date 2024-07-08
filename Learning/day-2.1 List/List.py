@@ -18,6 +18,8 @@ if 69 in marks:
 else:
   print("there is no 69")
 
+print(22 in list_val) # same thing of finding a vlaue in the list but it will return true or false
+
 # printing values of list in agap sequence
 
 num = [ 3, 76, 98, 00, 1, 21, 34, 65, 89, 47, 73]
