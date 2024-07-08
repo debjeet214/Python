@@ -9,3 +9,13 @@ def filter_function(a):
 num = [ 3, 6, 9, 10, 13, 21, 3, 51, 8, 14, 27]
 newlist = list(filter(filter_function, num))   # applying the function on each elements to filter
 print(newlist)
+
+# reduce = this helps to reduce the list element one by one and makes it easy.
+
+from functools import reduce
+# List of numbers
+numbers = [1, 2, 3, 4, 5]
+# Calculate the sum of the numbers using the reduce function
+sum = reduce(lambda x, y: x + y, numbers)
+# Print the sum
+print(sum)
