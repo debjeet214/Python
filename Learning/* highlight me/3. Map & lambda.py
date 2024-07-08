@@ -1,4 +1,4 @@
-# map
+# map: The map function applies a function to each element in a sequence and returns a new sequence containing the transformed elements. The map function has the following syntax: map(function, iterable)
 
 # way 1 using the function & loop to create a new list from an another list element's cube
 def cube(x):
