@@ -9,5 +9,16 @@ print(double(5))
 # Example 2: area of circle = A = π r²
 
 radius = int(input("Enter the radius of the circle: "))
-C_area = 3.14 * radius * radius
-print(C_area)
+C_area = lambda radius: 3.14 * radius * radius
+print(C_area(radius))
+
+# example 3
+avg = lambda x, y, z: (x + y + z)/3
+print(avg(10, 20, 14))
+
+
+# mainly it is used to pass a function as the argument of another function
+def appl(fx, value):
+  return 6 + fx(value)
+
+print(appl(lambda x: x * x , 2))
