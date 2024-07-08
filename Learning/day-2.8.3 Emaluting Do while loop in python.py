@@ -6,7 +6,7 @@ while True :
     break
 
 
-# another way to do it
+# another example of doing this
 
 i = 1
 while True:
