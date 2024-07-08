@@ -44,7 +44,7 @@ print(animals[:6])      #in this case the it is take as animal[0:6],  do it will
 
 
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
-print(animals[::2])     #this mans it will print all the second placed values in the tuples from index 0 to end
+print(animals[::2])     # here it is just leaving the two first criterias & this means it will print all the second placed values in the tuples from index 0 to end
 print(animals[-9:-1:2]) #equal to previous
 
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
