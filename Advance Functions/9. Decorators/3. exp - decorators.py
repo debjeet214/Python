@@ -15,3 +15,15 @@ def addition():        # function to add 2 values
 
 sum = decorator(addition)
 print(sum())
+
+
+# we can shorthand the ending like this
+```
+@decorator
+def addition():        # function to add 2 values
+  num1 = float(input("Enter first number: "))
+  num2 = float(input("Enter second number: "))
+  return num1 + num2
+
+addition()
+```
