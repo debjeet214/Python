@@ -11,11 +11,12 @@ def background_task():
 
 # Create a daemon thread
 thread = threading.Thread(target=background_task)
-thread.daemon = True
+thread.daemon = True  # keep executing at background
 
 # Start the thread
 thread.start()
-
+# thread.join() --> this will lead to error and infinite o/p as no condition is given to stopo the execution
 # Main program continues
 time.sleep(5)
-print("Main program exiting")
+print("Main program exiting") #but this will finish the program as soon the 5 sec ends as no .join() is given
+
