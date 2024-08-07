@@ -20,15 +20,16 @@ p.__dict__
 ```
 
 # help method
+The help() method in Python is a built-in function that is used to display the documentation of modules, classes, functions, keywords, and other objects. It is a very useful tool for quickly getting information about Python objects, including their attributes, methods, and usage. means it tells about what is used for what purpose only.
+
 ```python
-class str(object)
- |  str(object='') -> str
- |  str(bytes_or_buffer[, encoding[, errors]]) -> str
+import math
+help(math)
+
+my_list = [1, 2, 3]
+help(my_list)
 ```
 
-class str(object)
- |  str(object='') -> str
- |  str(bytes_or_buffer[, encoding[, errors]]) -> str
 
 
 
