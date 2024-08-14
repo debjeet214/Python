@@ -12,3 +12,20 @@ The following are some of the most commonly used functions in the shutil module:
 - shutil.move(src, dst): This function moves the file located at src to a new location specified by dst. This function is equivalent to renaming a file in most cases.
 
 - shutil.rmtree(path): This function recursively deletes the directory located at path, along with all of its contents. This function is similar to using the rm -rf command in a shell.
+
+
+```python
+import shutil
+
+# Copying a file
+shutil.copy("src.txt", "dst.txt")
+
+# Copying a directory
+shutil.copytree("src_dir", "dst_dir")
+
+# Moving a file
+shutil.move("src.txt", "dst.txt")
+
+# Deleting a directory
+shutil.rmtree("dir")
+```
