@@ -1,9 +1,9 @@
 # Python
-<h3>lets study, create, update and do project here</h3>
+<h3> let's study, create, update and do a project here</h3>
 
 Actually, Python was invented in the late 1980s by Guido van Rossum at CWI in the <b>Netherlands</b> as a successor to the ABC programming language. Its implementation began in December 1989. Van Rossum shouldered sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from his responsibilities as Python's <b>"benevolent dictator for life"</b>. In January 2019, active Python core developers elected a five-member Steering Council to lead the project.
 
-** Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. it is a interpreted, high-level language. **
+Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. it is an interpreted, high-level language. **
 
 (In computer software, a general-purpose programming language (GPL) is a programming language for building software in a wide variety of application domains. Conversely, a domain-specific programming language (DSL) is used within a specific area. For example, Python is a GPL. )
 
