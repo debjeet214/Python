@@ -25,3 +25,15 @@ print(next(gen))
 
 ### explanation :
 As you can see, the generator function my_generator() returns a generator object, which can be used to generate the values in the range 0 to 4. The next() function is used to request the next value from the generator, and the generator resumes its execution until it encounters another yield statement or until it reaches the end of the function.
+
+## Another way using For in looping
+```python
+def my_generator():
+    yield 1
+    yield 2
+    yield 3
+
+gen = my_generator()
+for value in gen:
+    print(value)
+```
