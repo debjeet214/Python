@@ -31,20 +31,20 @@ As of 17 March 2024, the Python Package Index (PyPI), the official repository fo
 ### Applications of Python
 
 The Python Package Index lists thousands of third-party modules for Python.
-Web and Internet Development
+1. Web and Internet Development
 Python offers many choices for web development:
 
-Frameworks such as Django and Pyramid.
-Micro-frameworks such as Flask and Bottle.
-Advanced content management systems such as Plone and django CMS.
-Python's standard library supports many Internet protocols:
+- Frameworks such as Django and Pyramid.
+- Micro-frameworks such as Flask and Bottle.
+- Advanced content management systems such as Plone and django CMS.
+- Python's standard library supports many Internet protocols:
 
-HTML and XML
-JSON
-E-mail processing.
-Support for FTP, IMAP, and other Internet protocols.
-Easy-to-use socket interface.
-And the Package Index has yet more libraries:
+- i. HTML and XML
+- ii. JSON
+- iii. E-mail processing.
+- iv. Support for FTP, IMAP, and other Internet protocols.
+- v. Easy-to-use socket interface.
+- vi. the Package Index has yet more libraries:
 
 Requests, a powerful HTTP client library.
 Beautiful Soup, an HTML parser that can handle all sorts of oddball HTML.
