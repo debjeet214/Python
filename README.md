@@ -28,7 +28,7 @@ Python is a high-level, general-purpose programming language. Its design philoso
 As of 17 March 2024, the Python Package Index (PyPI), the official repository for third-party Python software, contains over 523,000 packages with a wide range of functionality, including: <b>Automation, Data analytics, Databases, Documentation, GUI, Image processing, Machine learning, Mobile apps, Multimedia, Computer networking, Scientific computing, System administration, Test frameworks, Text processing, Web frameworks, Web scraping</b>
 
 
-### Applications of Python
+## Applications of Python
 
 <h4>The Python Package Index lists thousands of third-party modules for Python.</h4>
 <h3>1. Web and Internet Development</h3>
@@ -38,7 +38,7 @@ Python offers many choices for web development:
 - Micro-frameworks such as Flask and Bottle.
 - Advanced content management systems such as Plone and Django CMS.
 
-Python's standard library supports many Internet protocols:</hr>
+Python's standard library supports many Internet protocols:
 
 - i. HTML and XML
 - ii. JSON
@@ -48,18 +48,21 @@ Python's standard library supports many Internet protocols:</hr>
 - vi. the Package Index has yet more libraries:
 
 Requests, a powerful HTTP client library.
-Beautiful Soup, an HTML parser that can handle all sorts of oddball HTML.
-Feedparser for parsing RSS/Atom feeds.
-Paramiko, implementing the SSH2 protocol.
-Twisted Python, a framework for asynchronous network programming.
-Scientific and Numeric
-Python is widely used in scientific and numeric computing:
 
-SciPy is a collection of packages for mathematics, science, and engineering.
-Pandas is a data analysis and modeling library.
-IPython is a powerful interactive shell that features easy editing and recording of a work session, and supports visualizations and parallel computing.
-The Software Carpentry Course teaches basic skills for scientific computing, running bootcamps and providing open-access teaching materials.
-Education
+- Beautiful Soup, an HTML parser that can handle all sorts of oddball HTML.
+- Feedparser for parsing RSS/Atom feeds.
+- Paramiko, implementing the SSH2 protocol.
+- Twisted Python, a framework for asynchronous network programming.
+- Scientific and Numeric
+
+<h3>2. Scientific and Numeric computing:</h3>
+
+- SciPy is a collection of packages for mathematics, science, and engineering.
+- Pandas is a data analysis and modeling library.
+- IPython is a powerful interactive shell that features easy editing and recording of a work session, and supports visualizations and parallel computing.
+- The Software Carpentry Course teaches basic skills for scientific computing, running bootcamps and providing open-access teaching materials.
+  <hr>
+<h3>3. Education</h3>
 Python is a superb language for teaching programming, both at the introductory level and in more advanced courses.
 
 Books such as How to Think Like a Computer Scientist, Python Programming: An Introduction to Computer Science, and Practical Programming.
