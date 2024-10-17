@@ -66,27 +66,28 @@ Requests, a powerful HTTP client library.
 Python is a superb language for teaching programming, both at the introductory level and in more advanced courses.
 
 Books such as How to Think Like a Computer Scientist, Python Programming: An Introduction to Computer Science, and Practical Programming.
-The Education Special Interest Group is a good place to discuss teaching issues.
-Desktop GUIs
-The Tk GUI library is included with most binary distributions of Python.
 
-Some toolkits that are usable on several platforms are available separately:
+<h3>4. Desktop GUIs</h3>
+The Tk GUI library is included with most binary distributions of Python. Also, Some toolkits that are usable on several platforms are available separately:
 
-wxWidgets
-Kivy, for writing multitouch applications.
-Qt via pyqt or pyside
+1. wxWidgets
+2. Kivy, for writing multitouch applications.
+3. Qt via pyqt or pyside
+
 Platform-specific toolkits are also available:
+1. GTK+
+2. Microsoft Foundation Classes through the win32 extensions
 
-GTK+
-Microsoft Foundation Classes through the win32 extensions
-Software Development
+   
+<h3>5. Software Development</h3>
 Python is often used as a support language for software developers, for build control and management, testing, and in many other ways.
 
-SCons for build control.
-Buildbot and Apache Gump for automated continuous compilation and testing.
-Roundup or Trac for bug tracking and project management.
-Business Applications
+1. SCons for build control.
+2. Buildbot and Apache Gump for automated continuous compilation and testing.
+3. Roundup or Trac for bug tracking and project management.
+   
+<h3>6. Business Applications</h3>
 Python is also used to build ERP and e-commerce systems:
 
-Odoo is an all-in-one management software that offers a range of business applications that form a complete suite of enterprise management applications.
-Tryton is a three-tier high-level general purpose application platform.
+- Odoo is an all-in-one management software that offers a range of business applications that form a complete suite of enterprise management applications.
+- Tryton is a three-tier high-level general purpose application platform.
