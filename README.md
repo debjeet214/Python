@@ -37,7 +37,8 @@ Python offers many choices for web development:
 - Frameworks such as Django and Pyramid.
 - Micro-frameworks such as Flask and Bottle.
 - Advanced content management systems such as Plone and django CMS.
-- Python's standard library supports many Internet protocols:
+
+Python's standard library supports many Internet protocols:
 
 - i. HTML and XML
 - ii. JSON
