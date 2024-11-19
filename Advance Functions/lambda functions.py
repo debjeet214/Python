@@ -1,5 +1,4 @@
 # A lambda function is a small anonymous function defined with the lambda keyword in programming languages like Python. It is used primarily for creating small, one-off functions without needing to formally define a function using the def keyword.
-
 #ex-1
 # lambda function
 
